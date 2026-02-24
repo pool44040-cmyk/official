@@ -1,0 +1,21 @@
+{
+  "name": "official",
+  "displayName": "Alex",
+  "version": "999999999",
+  "description": "Built with APK Builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "keywords": [
+    "cordova",
+    "android"
+  ],
+  "author": "APK Builder",
+  "license": "MIT",
+  "devDependencies": {},
+  "cordova": {
+    "platforms": [],
+    "plugins": {}
+  }
+}
