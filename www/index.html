@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://sna-official.vercel.app/ -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://files.catbox.moe/7767iy.png">
+    <meta property="og:description" content="Sekte Nusantara Asik (SNA) | Community Portal">
+    <meta property="og:url" content="https://sna-official.vercel.app">
+    <meta property="og:type" content="website">
+
+    <title>Sekte Nusantara Asik (SNA) | Community Portal</title>
+    <link rel="stylesheet" href="./Sekte Nusantara Asik (SNA) _ Community Portal_files/style.css">
+    <link rel="stylesheet" href="./Sekte Nusantara Asik (SNA) _ Community Portal_files/animate.css">
+    <link rel="stylesheet" href="./Sekte Nusantara Asik (SNA) _ Community Portal_files/all.min.css">
+    <style>
+        /* CSS Utama untuk Perbaikan Visual */
+        #preloader {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: #ffffff;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            z-index: 99999;
+            transition: opacity 0.6s ease, visibility 0.6s;
+        }
+        .loader-spinner {
+            width: 60px; height: 60px;
+            border: 6px solid #55efc4;
+            border-top: 6px solid #00b894;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        body.loaded #preloader { opacity: 0; visibility: hidden; }
+
+        /* Pemisah Konten & Background (Glassmorphism) */
+        .hero-glass {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 30px;
+            padding: 50px 25px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        .section-title {
+            background: #ffffff9e;
+            display: inline-block;
+            padding: 6px 20px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            color: var(--primary-green);
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .tag-pill {
+            background: white;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            color: var(--text-dark);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body class="loaded">
+
+    
+
+    <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav id="nav-menu" class="offcanvas-menu">
+        <a href="https://sna-official.vercel.app/index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="https://sna-official.vercel.app/info.html"><i class="fa-solid fa-newspaper"></i> Info Portal</a>
+        <a href="https://sna-official.vercel.app/admin.html"><i class="fa-solid fa-user-shield"></i> Daftar Admin</a>
+    </nav>
+
+    <div class="container">
+        
+        <header class="hero-glass anim-fade-up">
+            <div class="anim-scale">
+                <div style="width: 160px; height: 160px; background: #fff; border-radius: 50%; margin: 0 auto 30px; display: flex; align-items: center; justify-content: center; border: 4px solid var(--light-green); box-shadow: 0 0 30px rgba(85, 239, 196, 0.6); overflow: hidden;">
+                    <img src="./Sekte Nusantara Asik (SNA) _ Community Portal_files/logo.jpg" alt="Logo SNA" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <span class="section-title">Official Landing Page</span>
+                <h1 style="font-size: 2.8rem; line-height: 1.1; margin-bottom: 15px;">SEKTE NUSANTARA ASIK</h1>
+                <p style="font-size: 1.1rem; color: var(--text-dark); margin: 0 auto 25px; max-width: 650px; line-height: 1.7; opacity: 0.9;">
+                    Komunitas kreatif berbasis di Indonesia yang menyatukan para kreator visual. Tempat berkumpulnya para editor untuk tumbuh, berbagi ilmu, dan berkolaborasi tanpa batas.
+                </p>
+                
+                <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px;">
+                <span class="tag-pill">#Community</span>
+                    <span class="tag-pill">#JedagJedug</span>
+                    <span class="tag-pill">#AMV</span>
+                    <span class="tag-pill">#Mograph</span>
+                    <span class="tag-pill">#Design</span>
+                </div>
+            </div>
+        </header>
+
+        <section style="margin-bottom: 70px;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <span class="section-title">Fokus Kami</span>
+                <h2 style="font-size: 2rem;">Divisi Kreatif SNA</h2>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+                <div class="card interactive anim-fade-up">
+                    <div style="background: rgba(0, 184, 148, 0.1); width: 60px; height: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <i class="fa-solid fa-bolt fa-xl" style="color: var(--primary-green);"></i>
+                    </div>
+                    <h3>Jedag Jedug (JJ)</h3>
+                    <p style="color: var(--text-light); margin-top: 12px; line-height: 1.6;">Eksplorasi gaya edit musik sinkronisasi tinggi dengan transisi powerfull yang sedang tren di Indonesia.</p>
+                </div>
+
+                <div class="card interactive anim-fade-up delay-100">
+                    <div style="background: rgba(9, 132, 227, 0.1); width: 60px; height: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <i class="fa-solid fa-clapperboard fa-xl" style="color: var(--accent-blue);"></i>
+                    </div>
+                    <h3>Anime Music Video(AMV)</h3>
+                    <p style="color: var(--text-light); margin-top: 12px; line-height: 1.6;">Seni menyampaikan emosi melalui potongan visual anime yang dipadukan dengan atmosfer musik yang mendalam.</p>
+                </div>
+                
+                <div class="card interactive anim-fade-up delay-100">
+                    <div style="background: rgba(9, 132, 227, 0.1); width: 60px; height: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <i class="fa-solid fa-compass-drafting" style="color: var(--accent-blue);"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p style="color: var(--text-light); margin-top: 12px; line-height: 1.6;">Berfokus pada bagaimana tampilan bekerja, bukan sekadar terlihat bagus. Tujuannya adalah membuat informasi mudah diakses dan nyaman dilihat.</p>
+                </div>
+
+                <div class="card interactive anim-fade-up delay-200">
+                    <div style="background: rgba(85, 239, 196, 0.1); width: 60px; height: 60px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <i class="fa-solid fa-bezier-curve fa-xl" style="color: #00b894;"></i>
+                    </div>
+                    <h3>Motion Graphics</h3>
+                    <p style="color: var(--text-light); margin-top: 12px; line-height: 1.6;">Pengembangan desain grafis bergerak, tipografi kinetik, dan aset visual untuk kebutuhan konten modern.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card anim-fade-up" style="background: rgba(255, 255, 255, 0.8); border: 1px solid var(--white); margin-bottom: 70px;">
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px; text-align: center; padding: 10px 0;">
+                <div>
+                    <h2 style="font-size: 2.5rem; color: var(--primary-green);">2024</h2>
+                    <p style="color: var(--text-light); font-weight: 600;">Tahun Berdiri</p>
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; color: var(--primary-green);">20+</h2>
+                    <p style="color: var(--text-light); font-weight: 600;">Member Aktif</p>
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; color: var(--primary-green);">-</h2>
+                    <p style="color: var(--text-light); font-weight: 600;">Project Collab</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-bottom: 80px;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <span class="section-title">Membership</span>
+                <h2 style="font-size: 2rem;">Kenapa Bergabung Dengan Kami?</h2>
+            </div>
+            
+            <div class="card interactive anim-fade-up" style="margin-bottom: 20px;">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <div style="background: var(--primary-green); color: white; min-width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem;">Supportive Community</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Tempat diskusi sehat tanpa senioritas berlebihan bagi para pemula maupun pro.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card interactive anim-fade-up delay-100" style="margin-bottom: 20px;">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <div style="background: var(--accent-blue); color: white; min-width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem;">Resource Sharing</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Akses gratis ke preset, material mentahan (footage), dan tutorial eksklusif member.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="text-align: center; margin-bottom: 100px;">
+            <div class="card anim-scale" style="background: linear-gradient(135deg, var(--primary-green), #00cec9); color: white; padding: 60px 30px; border: none; box-shadow: 0 20px 40px rgba(0, 184, 148, 0.3);">
+                <h2 style="color: white; font-size: 2.4rem; margin-bottom: 15px;">Siap Menjadi Kreator Hebat?</h2>
+                <p style="margin-bottom: 35px; opacity: 0.95; font-size: 1.1rem;">Jangan lewatkan kesempatan belajar bersama editor terbaik di Nusantara.</p>
+                <a href="https://chat.whatsapp.com/Cv7ozfILIaQ0DqNhhIyWWm" class="btn-cta" style="background: white; color: var(--primary-green); padding: 18px 45px; font-size: 1.1rem;">
+                    <i class="fa-solid fa-paper-plane"></i> Klik Untuk Seleksi
+                </a>
+            </div>
+        </section>
+
+        <footer style="text-align: center; padding-bottom: 40px; color: var(--text-light); opacity: 0.8;">
+            <div style="margin-bottom: 15px; font-size: 1.2rem;">
+                <a href="https://www.instagram.com/s.n.a__official?igsh=Z3NrYXUyOHZja2Fh"><i class="fa-brands fa-instagram" style="margin: 0 10px; cursor: pointer;"></i></a>
+                <a href="https://www.tiktok.com/@nusantaraasik?_r=1&amp;_t=ZS-92Xf8x8nAJs"><i class="fa-brands fa-tiktok" style="margin: 0 10px; cursor: pointer;"></i></a>
+            </div>
+            <p style="font-size: 0.85rem;">© 2024 - 2025 Sekte Nusantara Asik. Designed for Creators.</p>
+        </footer>
+
+    </div>
+
+    <script src="./Sekte Nusantara Asik (SNA) _ Community Portal_files/main.js.download"></script>
+    <script>
+        // Preloader Logic
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            setTimeout(() => { 
+                const preloader = document.getElementById('preloader');
+                if(preloader) preloader.remove(); 
+            }, 800);
+        });
+    </script>
+
+
+</body></html>
